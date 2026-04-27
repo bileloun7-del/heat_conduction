@@ -128,5 +128,5 @@ if start:
         fig.suptitle(f"Time = {time_str}       Center Temperature = {T_center:.2f} °C", fontsize=14)
 
         placeholder.pyplot(fig)
-
+        plt.close(fig)
         time.sleep(0.05)
